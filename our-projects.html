@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Real Projects - BrightEra Solar</title>
+    <meta name="description"
+        content="View our completed solar installation projects including residential and commercial solar systems">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 58, 138, 0.9) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 107, 53, 0.1) 0%, transparent 70%);
+        }
+
+        .page-hero-content {
+            text-align: center;
+            z-index: 1;
+            padding: 0 5%;
+        }
+
+        .page-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--primary-orange) 0%, var(--accent-yellow) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-hero p {
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: var(--primary-orange);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            transform: translateX(-5px);
+            color: var(--accent-yellow);
+        }
+
+        .real-projects-section {
+            padding: 5rem 5%;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(255, 107, 53, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+        }
+
+        .real-projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .real-project-item {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.4s ease;
+        }
+
+        .real-project-item:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-orange);
+            box-shadow: 0 20px 60px rgba(255, 107, 53, 0.2);
+        }
+
+        .real-project-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.4s ease;
+        }
+
+        .real-project-item:hover .real-project-image {
+            transform: scale(1.05);
+        }
+
+        .real-project-info {
+            padding: 2rem;
+        }
+
+        .real-project-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-orange);
+        }
+
+        .real-project-info p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .real-projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .real-project-image {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="BrightEra Solar Logo">
+                <span>BrightEra Solar</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <a href="index.html#projects" class="back-link">← Back to Home</a>
+            <h1>Our Real Projects</h1>
+            <p>Explore our completed solar installations and see the quality of our work firsthand</p>
+        </div>
+    </section>
+
+    <!-- Real Projects Section -->
+    <section class="real-projects-section">
+        <div class="real-projects-grid">
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Residential Solar Installation</h3>
+                    <p><strong>Project Type:</strong> Residential</p>
+                    <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                        and electrical systems.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Commercial Solar System</h3>
+                    <p><strong>Project Type:</strong> Commercial</p>
+                    <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                        systems.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <video controls class="real-project-image" style="background: #000;">
+                    <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="real-project-info">
+                    <h3>Installation Process - Video Tour</h3>
+                    <p><strong>Project Type:</strong> Installation Process</p>
+                    <p><strong>Description:</strong> Watch our professional team in action during the installation
+                        process.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Rooftop Solar Array</h3>
+                    <p><strong>Project Type:</strong> Residential</p>
+                    <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                    </p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Solar Panel Framework</h3>
+                    <p><strong>Project Type:</strong> Residential</p>
+                    <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                        energy efficiency.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <video controls class="real-project-image" style="background: #000;">
+                    <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="real-project-info">
+                    <h3>Project Walkthrough - Video</h3>
+                    <p><strong>Project Type:</strong> Project Tour</p>
+                    <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                    </p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Inverter Installation</h3>
+                    <p><strong>Project Type:</strong> Electrical Setup</p>
+                    <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                        connections and safety measures.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Solar Control Systems</h3>
+                    <p><strong>Project Type:</strong> System Integration</p>
+                    <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                        performance.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Complete Solar Setup</h3>
+                    <p><strong>Project Type:</strong> Residential</p>
+                    <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                        storage.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Panel Array Installation</h3>
+                    <p><strong>Project Type:</strong> Commercial</p>
+                    <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+
+            <div class="real-project-item">
+                <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                    class="real-project-image">
+                <div class="real-project-info">
+                    <h3>Solar Energy Solution</h3>
+                    <p><strong>Project Type:</strong> Residential</p>
+                    <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                    </p>
+                    <p><strong>Completion:</strong> 2024</p>
+                </div>
+            </div>
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Commercial Solar System</h3>
+            <p><strong>Project Type:</strong> Commercial</p>
+            <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                systems.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <video controls class="real-project-image" style="background: #000;">
+            <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="real-project-info">
+            <h3>Installation Process - Video Tour</h3>
+            <p><strong>Project Type:</strong> Installation Process</p>
+            <p><strong>Description:</strong> Watch our professional team in action during the installation
+                process.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Rooftop Solar Array</h3>
+            <p><strong>Project Type:</strong> Residential</p>
+            <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+            </p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Solar Panel Framework</h3>
+            <p><strong>Project Type:</strong> Residential</p>
+            <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                energy efficiency.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <video controls class="real-project-image" style="background: #000;">
+            <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="real-project-info">
+            <h3>Project Walkthrough - Video</h3>
+            <p><strong>Project Type:</strong> Project Tour</p>
+            <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+            </p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Inverter Installation</h3>
+            <p><strong>Project Type:</strong> Electrical Setup</p>
+            <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                connections and safety measures.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Solar Control Systems</h3>
+            <p><strong>Project Type:</strong> System Integration</p>
+            <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                performance.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Complete Solar Setup</h3>
+            <p><strong>Project Type:</strong> Residential</p>
+            <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                storage.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Panel Array Installation</h3>
+            <p><strong>Project Type:</strong> Commercial</p>
+            <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.34.jpeg" alt="Solar Installation Project 1"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Residential Solar Installation</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Professional solar panel installation with high-quality inverters
+                    and electrical systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.35.jpeg" alt="Solar Installation Project 2"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Commercial Solar System</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale commercial solar installation with advanced monitoring
+                    systems.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.36.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Installation Process - Video Tour</h3>
+                <p><strong>Project Type:</strong> Installation Process</p>
+                <p><strong>Description:</strong> Watch our professional team in action during the installation
+                    process.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.37.jpeg" alt="Solar Installation Project 3"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Rooftop Solar Array</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete rooftop solar panel system with optimized panel placement.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.38.jpeg" alt="Solar Installation Project 4"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Panel Framework</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Durable mounting structure and panel installation for maximum
+                    energy efficiency.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <video controls class="real-project-image" style="background: #000;">
+                <source src="images/WhatsApp Video 2025-12-30 at 06.21.38.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="real-project-info">
+                <h3>Project Walkthrough - Video</h3>
+                <p><strong>Project Type:</strong> Project Tour</p>
+                <p><strong>Description:</strong> Detailed walkthrough of our completed solar installation project.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.39.jpeg" alt="Solar Installation Project 5"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Inverter Installation</h3>
+                <p><strong>Project Type:</strong> Electrical Setup</p>
+                <p><strong>Description:</strong> Professional inverter installation with proper electrical
+                    connections and safety measures.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.40.jpeg" alt="Solar Installation Project 6"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Control Systems</h3>
+                <p><strong>Project Type:</strong> System Integration</p>
+                <p><strong>Description:</strong> Advanced control systems and monitoring equipment for optimal
+                    performance.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.41.jpeg" alt="Solar Installation Project 7"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Complete Solar Setup</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Full solar energy system with panels, inverters, and battery
+                    storage.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.42.jpeg" alt="Solar Installation Project 8"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Panel Array Installation</h3>
+                <p><strong>Project Type:</strong> Commercial</p>
+                <p><strong>Description:</strong> Large-scale panel array with precision mounting and alignment.</p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+
+        <div class="real-project-item">
+            <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+                class="real-project-image">
+            <div class="real-project-info">
+                <h3>Solar Energy Solution</h3>
+                <p><strong>Project Type:</strong> Residential</p>
+                <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+                </p>
+                <p><strong>Completion:</strong> 2024</p>
+            </div>
+        </div>
+        <img src="images/WhatsApp Image 2025-12-30 at 06.21.43.jpeg" alt="Solar Installation Project 9"
+            class="real-project-image">
+        <div class="real-project-info">
+            <h3>Solar Energy Solution</h3>
+            <p><strong>Project Type:</strong> Residential</p>
+            <p><strong>Description:</strong> Complete solar energy solution providing clean, renewable power.
+            </p>
+            <p><strong>Completion:</strong> 2024</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BrightEra Solar. All rights reserved. Powering a sustainable future.</p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
